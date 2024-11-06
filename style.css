@@ -1,0 +1,223 @@
+h3 {
+    /* Tira esse style porque é só pros comentários para você alterar */
+    color: red;
+    font-weight: bold;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #050a30;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #050a30;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+
+body {
+    background-color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #050a30;
+    height: fit-content;
+}
+
+header img {
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: white;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    border-bottom: white 2px solid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+main section {
+    width: 80%;
+    margin: 20px 0;
+}
+
+main section img {
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.imagem-grande {
+    width: 90%;
+}
+
+main section img:hover {
+    border: #2542a7 1px solid;
+}
+
+.div-especial {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 90%;
+}
+
+
+.div-especial div, .div-especial section {
+    margin: 0 10px;
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div-especial img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: start;
+    color: #050a30;
+}
+
+hr {
+    border: white 1px solid;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.hr-especial {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: start;
+    color: #050a30;
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+pre {
+    text-align: start;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 10px 0;
+    border-left: white 5px solid;
+    transition: 0.5s;
+}
+
+pre:hover {
+    box-shadow: 0 3px 10px #050a30;
+    transform: translateY(-3px);
+}
+
+.laranja {
+    color: orange;
+}
+
+.roxo {
+    color: purple;
+}
+
+.verde {
+    color: white;
+}
+
+ul {
+    margin-top: 10px;
+    text-align: start;
+}
+
+.center {
+    text-align: center;
+}
+
+iframe {
+    border: 2px #171810 dotted;
+    border-radius: 10px;
+}
+
+#redes {
+    margin-top: 10px;
+}
+
+#redes a {
+    border: 1px solid white;
+    padding: 3px;
+    color: white;
+}
+
+#redes a:hover {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #050a30;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.quest {
+    display: none;
+}
+
+.programacao {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.programacao:hover {
+    box-shadow: 0 3px 5px gray;
+    transform: translateY(-3px);
+}
+
+button {
+    margin-top: 10px;
+    padding: 3px 5px;
+    border: 3px solid #0366fa;
+    background-color: #0366fa;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: #0366fa;
+    background-color: transparent;
+    font-weight: bold;
+    box-shadow: 0 0 2px #0366fa;
+}

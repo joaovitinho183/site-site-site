@@ -1,0 +1,109 @@
+h3 {
+    /* Tira esse style porque é só pros comentários para você alterar */
+    color: red;
+    font-weight: bold;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #050a30;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 2px solid #0366fa;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #050a30;
+    height: 45px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: white;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    border-bottom: white 2px solid;
+}
+
+main {
+    padding: 20px 100px;
+}
+h1 {
+    font-size: 2rem;
+    text-align: start;
+    color: #050a30;
+}
+
+hr {
+    border: #2542a7 1px solid;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: start;
+    color: #050a30;
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    margin-top: 10px;
+    text-align: start;
+}
+
+.center {
+    text-align: center;
+}
+
+iframe {
+    border: 2px #050a30 dotted;
+    border-radius: 10px;
+}
+
+#redes {
+    margin-top: 10px;
+}
+
+#redes a {
+    border: 1px solid #2542a7;
+    padding: 3px;
+    color: #2542a7;
+}
+
+#redes a:hover {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #050a30;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
