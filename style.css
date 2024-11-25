@@ -1,6 +1,5 @@
 h3 {
-    /* Tira esse style porque é só pros comentários para você alterar */
-    color: red;
+    color: #3498db; /* Azul */
     font-weight: bold;
 }
 
@@ -9,47 +8,27 @@ h3 {
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
-    color: #050a30;
+    color: #2c3e50; /* Cor de texto mais suave */
 }
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: #050a30;
+    background-color: #ecf0f1; /* Cor de fundo da barra de rolagem */
 }
 
 *::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid #95a5a6; /* Cor do "thumb" da barra de rolagem */
 }
 
-
 body {
-    background-color: white;
+    background-color: #ecf0f1; 
     text-align: center;
     height: 100vh;
 }
 
-header {
-    background-color: #050a30;
-    height: fit-content;
-}
-
 header img {
     height: 100px;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-header nav a {
-    color: white;
-}
-
-header nav a:hover {
-    font-weight: bold;
-    border-bottom: white 2px solid;
 }
 
 main {
@@ -75,7 +54,7 @@ main section img {
 }
 
 main section img:hover {
-    border: #2542a7 1px solid;
+    border: #2980b9 1px solid; /* Azul suave */
 }
 
 .div-especial {
@@ -85,8 +64,8 @@ main section img:hover {
     width: 90%;
 }
 
-
-.div-especial div, .div-especial section {
+.div-especial div,
+.div-especial section {
     margin: 0 10px;
     flex: 1 1 100px;
     display: flex;
@@ -102,11 +81,11 @@ main section img:hover {
 h1 {
     font-size: 2rem;
     text-align: start;
-    color: #050a30;
+    color: #34495e; /* Cor mais suave para o título */
 }
 
 hr {
-    border: white 1px solid;
+    border: #bdc3c7 1px solid; /* Cinza claro */
     width: 90%;
     margin: 10px 0;
 }
@@ -118,7 +97,7 @@ hr {
 h2 {
     font-size: 1.5rem;
     text-align: start;
-    color: #050a30;
+    color: #34495e; /* Cor mais suave para subtítulos */
     margin-top: 20px;
 }
 
@@ -131,25 +110,25 @@ pre {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     margin: 10px 0;
-    border-left: white 5px solid;
+    border-left: #95a5a6 5px solid; /* Cor de borda sutil */
     transition: 0.5s;
 }
 
 pre:hover {
-    box-shadow: 0 3px 10px #050a30;
+    box-shadow: 0 3px 10px #34495e; /* Cor mais suave no hover */
     transform: translateY(-3px);
 }
 
 .laranja {
-    color: orange;
+    color: #e67e22; /* Laranja mais suave */
 }
 
 .roxo {
-    color: purple;
+    color: #8e44ad; /* Roxo mais suave */
 }
 
 .verde {
-    color: white;
+    color: #2ecc71; /* Verde suave */
 }
 
 ul {
@@ -162,7 +141,7 @@ ul {
 }
 
 iframe {
-    border: 2px #171810 dotted;
+    border: 2px #7f8c8d dotted;
     border-radius: 10px;
 }
 
@@ -171,22 +150,14 @@ iframe {
 }
 
 #redes a {
-    border: 1px solid white;
+    border: 1px solid #95a5a6;
     padding: 3px;
-    color: white;
+    color: #2c3e50; /* Cor do texto dos links */
 }
 
 #redes a:hover {
     font-weight: bold;
-}
-
-footer {
-    background-color: #050a30;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    background: linear-gradient(to right, #2980b9, #3498db, #5dade2, #5499c7, #1f618d);
 }
 
 .quest {
@@ -202,22 +173,130 @@ footer {
 }
 
 .programacao:hover {
-    box-shadow: 0 3px 5px gray;
+    box-shadow: 0 3px 5px #95a5a6;
     transform: translateY(-3px);
 }
 
 button {
     margin-top: 10px;
     padding: 3px 5px;
-    border: 3px solid #0366fa;
-    background-color: #0366fa;
+    border: 3px solid #3498db; /* Azul suave */
+    background-color: #3498db; /* Azul suave */
     color: white;
     transition: 0.5s;
 }
 
 button:hover {
-    color: #0366fa;
+    background: linear-gradient(to right, #2980b9, #3498db, #5dade2, #5499c7, #1f618d);
     background-color: transparent;
     font-weight: bold;
-    box-shadow: 0 0 2px #0366fa;
+    box-shadow: 0 0 2px #3498db;
+}
+
+footer {
+    background: linear-gradient(to right, #2980b9, #3498db, #5dade2, #5499c7, #1f618d);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cor do texto no footer */
+}
+
+header {
+    background: linear-gradient(to right, #2980b9, #3498db, #5dade2, #5499c7, #1f618d);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    margin: 0 10px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+
+    button {
+        width: 90%;
+        height: auto;
+    }
+
+    a {
+        padding: 0px;
+    }
+
+    p {
+        padding: 0px;
+        text-align: center;
+    }
+
+    img {
+        justify-content: center;
+        display: block;
+    }
+
+    iframe {
+        width: 125%;
+        height: auto;
+    }
+}
+
+.logo_cunha {
+    height: 70px;
+    width: 70px;
+}
+
+.img-especial {
+    width: 450px;
+    height: 275px;
 }

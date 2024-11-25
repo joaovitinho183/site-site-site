@@ -6,21 +6,31 @@
     <link rel="shortcut icon" href="logo_cunha_enterprise.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="menu.js" defer></script>
     <title>Programação</title>
 </head>
 <body>
-    <header>        
+    <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="eletroeletronica.html">Eletroeletronica</a>
-            <a href="redes.html">Redes</a>
-            <a href="bancoDados.html">Banco de Dados</a>
-            <a href="algoritmoFluxograma.html">Algoritmos e Fluxogramas</a>
-            <a href="programacao.html">Programação</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="eletroeletronica.html">Eletroeletronica</a>
+                <a href="redes.html">Redes</a>
+                <a href="bancoDados.html">Banco de Dados</a>
+                <a href="algoritmoFluxograma.html">Algoritmos e Fluxogramas</a>
+                <a href="programacao.html">Programação</a>
+            </div>
+            <img src="logo_cunha_enterprise.png" class="logo_cunha">
         </nav>
     </header>
     <main>
         <h1>Programação</h1> <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kc8JxEJLmf8?si=NTVawr0nWnoFjXlX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <section id="questProva1" class="programacao">
             <h2>Somatória de 2 matrizes</h2>
             <hr class="hr-especial">
@@ -468,7 +478,7 @@
         </section>
     </main>
     <footer>
-        &copy; Cunha Enterprise 2024. Todos os direitos reservados.
+        &copy; <strong>Cunha Enterprise 2024. Todos os direitos reservados.</strong> 
     </footer>
 </body>
 </html>

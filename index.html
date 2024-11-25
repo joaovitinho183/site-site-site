@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="logo_cunha_enterprise.png" type="image/x-icon">
     <link rel="stylesheet" href="style-home.css">
+    <script src="menu.js" defer></script>
     <title>Página Principal</title>
 </head>
 <body>
     <header>
-        <br><br>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="eletroeletronica.html">Eletroeletronica</a>
-            <a href="redes.html">Redes</a>
-            <a href="bancoDados.html">Banco de Dados</a>
-            <a href="algoritmoFluxograma.html">Algoritmos e Fluxogramas</a>
-            <a href="programacao.html">Programação</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="eletroeletronica.html">Eletroeletronica</a>
+                <a href="redes.html">Redes</a>
+                <a href="bancoDados.html">Banco de Dados</a>
+                <a href="algoritmoFluxograma.html">Algoritmos e Fluxogramas</a>
+                <a href="programacao.html">Programação</a>
+            </div>
+            <img src="logo_cunha_enterprise.png" class="logo_cunha">
         </nav>
     </header>
     <main>
@@ -49,7 +57,7 @@
         </nav>
     </main>
     <footer>
-        &copy; Cunha Enterprise 2024. Todos os direitos reservados.
+        &copy; <strong>Cunha Enterprise 2024. Todos os direitos reservados.</strong> 
     </footer>
 </body>
 </html>
